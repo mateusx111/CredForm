@@ -25,11 +25,12 @@ const config = {
           sans: ["var(--font-main)"],
         },
         "custom-purple": {
+          100: "#7A1CFB",
           200: "#7A5CFA",
         },
         "custom-white": {
-          100: "#666",
-          200: "#CCC",
+          100: "#666666",
+          200: "#CCCCCC",
           300: "#333",
         },
         "custom-red": {
