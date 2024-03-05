@@ -2,14 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.input-area {
+  @apply flex flex-col w-[564px];
+}
+
+.span-error {
+  @apply text-custom-red-100 text-xs;
+}
+
+.input-radio {
+  @apply text-custom-white-100 font-normal text-base;
 }
