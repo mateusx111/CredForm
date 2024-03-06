@@ -12,13 +12,13 @@
 }
 
 .input-area {
-  @apply flex flex-col w-[564px];
+  @apply flex w-[564px] flex-col;
 }
 
 .span-error {
-  @apply text-custom-red-100 text-xs;
+  @apply text-xs text-custom-red-100;
 }
 
 .input-radio {
-  @apply text-custom-white-100 font-normal text-base;
+  @apply text-[16px] font-normal text-custom-white-100;
 }
